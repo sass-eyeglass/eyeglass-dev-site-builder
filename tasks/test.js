@@ -11,7 +11,13 @@ module.exports = function(gulp, depends) {
       root: rootDir,
       source: "src"
     });
-    site.build();
-    nodetree(path.join(rootDir, site.config.dest));
+    var metalsmith = site.create();
+
+    metalsmith.build(function(err) {
+      if (err) {
+        throw err;
+      }
+      nodetree(path.join(rootDir, site.config.dest));
+    });
   });
 };
