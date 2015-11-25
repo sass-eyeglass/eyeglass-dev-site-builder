@@ -41,6 +41,30 @@ var config = {
       }
     }
   },
+  source: "src",
+  collections: {
+    posts: {
+      pattern: "content/posts/**/*.md",
+      sortBy: "date",
+      reverse: true
+    },
+    documentation: {
+      pattern: "content/documentation/**/*.md",
+      sortBy: "order"
+    }
+  },
+  watch: {
+    "${source}/content/**/*.md": true,
+    "${source}/**/*.html": true,
+    "${source}/{styles,images,scripts}/**/*": "**/*",
+    "${source}/layouts/**/*.hbt": true
+  },
+  redirect: {
+    "/documentation": "/documentation/getting-started",
+    "/getting-started": "/documentation/getting-started",
+    "/configuration": "/documentation/configuration",
+    "/github": "https://github.com/sass-eyeglass/eyeglass"
+  },
   livereload: {
     host: "localhost:35729"
   },
