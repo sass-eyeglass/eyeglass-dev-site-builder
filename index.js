@@ -13,10 +13,16 @@ EyeglassSiteBuilder.prototype.test = function(done) {
 };
 
 EyeglassSiteBuilder.prototype.build = function(config) {
-  this.create(config).build(function(err) {
-    if (err) {
-      throw err;
-    }
+  var site = this.create(config);
+  return new Promise(function(reject, resolve) {
+    site.build(function(err) {
+      if (err) {
+        reject(err);
+      }
+      else {
+        resolve();
+      }
+    });
   });
 };
 
