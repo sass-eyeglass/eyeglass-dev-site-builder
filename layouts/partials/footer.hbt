@@ -1,0 +1,9 @@
+<footer id="global-footer">
+  <div>
+    {{>copyright}}
+
+    {{>badges}}
+  </div>
+</footer>
+
+{{>scripts-foot}}
