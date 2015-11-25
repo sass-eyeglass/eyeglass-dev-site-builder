@@ -33,25 +33,11 @@ var config = {
         title: "Docs",
         description: "Read the docs!"
       },
-      api: {
-        href: "api",
-        title: "API",
-        description: "API documentation",
-        target: "_blank"
-      },
       github: {
         href: "github",
         title: "GitHub",
         description: "View the source on GitHub",
         target: "_blank"
-      },
-      examples: {
-        href: "examples",
-        title: "Examples"
-      },
-      tutorials: {
-        href: "tutorials",
-        title: "Tutorials"
       }
     }
   },
