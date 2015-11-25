@@ -1,3 +1,13 @@
+<a name="0.0.5"></a>
+## [0.0.5](https://github.com/sass-eyeglass/eyeglass-dev-site-builder.com/compare/v0.0.4...v0.0.5) (25th November 2015)
+
+
+### Bug Fixes
+
+* build returns a promise ([543c65c](https://github.com/sass-eyeglass/eyeglass-dev-site-builder.com/commit/543c65c))
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/sass-eyeglass/eyeglass-dev-site-builder.com/compare/v0.0.3...v0.0.4) (25th November 2015)
 
