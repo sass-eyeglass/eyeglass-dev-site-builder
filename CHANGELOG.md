@@ -1,3 +1,13 @@
+<a name="0.0.4"></a>
+## [0.0.4](https://github.com/sass-eyeglass/eyeglass-dev-site-builder.com/compare/v0.0.3...v0.0.4) (25th November 2015)
+
+
+### Bug Fixes
+
+* make build more configurable ([bfdeaf4](https://github.com/sass-eyeglass/eyeglass-dev-site-builder.com/commit/bfdeaf4))
+
+
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/sass-eyeglass/eyeglass-dev-site-builder.com/compare/v0.0.2...v0.0.3) (25th November 2015)
 
